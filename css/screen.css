@@ -1,0 +1,351 @@
+
+
+
+.icon{
+  padding-bottom: 10px;
+
+}
+.upoption{
+  color: rgb(96,190,174);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.option{
+  color: rgb(96,190,174);
+}
+.title{
+  color: rgb(96,190,174);
+  font-size: 1.8rem;
+}
+time{
+  color: #AAA;
+}
+
+@media screen and (max-width: 480px) {
+  #wrapper{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon{
+    width: 60px;
+    order:2;
+  }
+  #nav-info > .icon > img{
+    width: 100%;
+  } 
+  .upoption{
+    font-size: 1.4rem;
+    padding: 10px;
+    display: inline-block;
+    order:1;
+  }
+  #nav-info > nav > ul > li:not(:last-of-type){
+    padding-right: 10px;
+  }
+  li{
+  display: inline-block;
+  }
+  aside{
+    display: none;
+  }
+  .pic{
+    height: 248px;
+  }
+  .pic > img{
+    max-width: 100%;
+  }
+  .title-box{
+    vertical-align: bottom;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+  }
+  #titleA{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+  }
+  #titleB{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+  }
+  #nd-nav{
+    display: none;
+  }
+  .arti-with-pic{
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  .img > img{
+    max-height: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+  #wrapper{
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+  }
+  .icon{
+    width: 60px;
+  }
+  .upoption{
+    font-size: 1.7rem;
+    padding: 20px;
+    padding-left: 0;
+  }
+  li{
+    display: inline-block;
+  }
+  aside{
+    display: none;
+  }
+  #main{
+    width: 100%;
+  }
+  .pic{
+    height: 248px;
+    overflow: hidden;
+    position: relative;
+  }
+  .pic > img{
+    max-width: 100%;
+  }
+  .title-box{
+    position: absolute;
+    bottom: 0px;
+    line-height: 1rem;
+    width: 100%;
+  }
+  #titleA{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 15px;
+  }
+  #titleB{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+  }
+  #nd-nav{
+    display: none;
+  }
+  #archives{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .arti-with-pic{
+    width: 50%;
+    padding: 0 5px 0 5px;
+    margin: 10px 0 20px 0;
+  }
+  .img > img{
+    max-height: 100%;
+    max-width: 230px;
+  }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  #wrapper{
+    max-width: 768px;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+  #nav-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon{
+    width: 60px;
+  }
+  .upoption{
+    font-size: 1.7rem;
+    padding-right: 20px;
+    padding-left: 0px;
+    display: inline-block;
+  }
+  li{
+    display: inline-block;
+  }
+  aside{
+    display: none;
+  }
+  #main{
+    width: 100%;
+  }
+  .pic{
+    height: 445px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pic > img{
+    max-width: 100%;
+  }
+  .title-box{
+    font-size: 2.2rem;
+    line-height: 30px;
+    bottom: 80px;
+    position: absolute;
+    width: 100%;
+  }
+  #titleA{
+    background-color: white;
+    color: black;
+    padding:15px;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+  }
+  #titleB{
+    background-color: black;
+    color: white;
+    padding:15px;
+    font-size: 2.2rem;
+    display: table;
+    float: right;
+    clear: right;
+  }
+  .option{
+    background-color: rgb(239,248,247);
+    border-right: 0.5px solid rgb(217,239,236);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex:1;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 24.6%;
+  }
+  .option > p{
+    display: none;
+  }
+  #archives{
+    display: flex;
+  }
+  .arti-with-pic{
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .img > img{
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   #wrapper {
+      max-width: 991px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    #nav-info {
+      width: 20%;
+    }
+    #nav-info > aside > h5{
+      color: rgb(87,87,87);
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    #nav-info > aside > p{
+      margin-right: 100px;
+      color: rgb(87,87,87);
+      font-size: 0.8rem;
+    }
+    .icon {
+      width: 100px;
+    }
+    .upoption{
+      padding: 0;
+      margin-bottom: 18px;
+      font-size: 2rem;
+
+    }
+    .pic{
+      position: relative;
+      height: 445px;
+      overflow: hidden;
+    }
+    .pic > img{
+      max-width: 100%;
+    }
+    .title-box{
+      position: absolute;
+      bottom: 80px;
+      right: 0;
+      line-height: 30px;
+    }
+    #titleA{
+      padding:15px;
+      background-color: white;
+      color: black;
+      font-size: 2.2rem;
+      display: table;
+      float: right;
+    }
+    #titleB{
+      padding:15px;
+      background-color: black;
+      color: white;
+      font-size: 2.2rem;
+      display: table;
+      float: right;
+      clear: right;
+    }
+    #main{
+      width: 80%;
+    }
+    .option{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      flex: 1;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+    }
+    #nd-nav > .option{
+      border-right: 0.5px solid rgb(217,239,236);
+      background-color: rgb(239,248,247);
+      width: 24.6%;
+    }
+    #archives{
+      display: flex;
+    } 
+    #archives > .arti-with-pic{
+      width: 25%;
+      padding:0 10px 0 10px;
+    }
+    #archives > .arti-with-pic > .img > img{
+      max-width: 100%;
+    }
+
+}
